@@ -168,7 +168,7 @@
     transform: translate(-50%, -50%);
 }
 .mob-navigation-menu {
-    display: none;
+    display: flex;
     flex-direction: column;
     gap: 40px;
     margin-bottom: 168px;
@@ -616,12 +616,12 @@
       visibility: visible;
       pointer-events: auto;
   }
-  .modal-window {
-      width: 408px;
-      min-height: 584px;
+  .modal-window { 
+      width: 288px;
+      min-height: 623px;
       border-radius: 4px;
       background-color: #FCFCFC;
-      padding: 72px 24px 24px 24px;
+      padding: 72px 16px 24px 16px;
       position: absolute;
       top: 50%;
       left: 50%;
@@ -903,6 +903,11 @@
           .footer-socials-title {
               text-align-last: left;
           }
+
+          .modal-window {
+            min-height: 584px;
+            width: 408px;
+        }
   }
   
   /** desktop */
