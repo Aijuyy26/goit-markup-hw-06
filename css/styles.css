@@ -15,6 +15,9 @@
     margin: 0;
     padding-left: 0;
 }
+.container{
+    min-width: 320px;
+}
    h1,
    h2,
    h3,
@@ -87,7 +90,6 @@
       font-size: 16px;
       line-height: 150%;
       letter-spacing: 0.32px;
-      padding: 24px 0;
       display: block;
       transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -117,7 +119,7 @@
       display: none;
   }
   .header-contact {
-      font-size: 16px;
+      font-size: 12px;
       line-height: 150%;
       letter-spacing: 0.32px;
       color: #434455;
@@ -417,7 +419,7 @@
   .portfolio-list {
       display: flex;
       flex-wrap: wrap;
-      gap: 48px;
+      gap: 72px;
   }
   .portfolio-li {
       transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -815,7 +817,7 @@
       /* header */
       .header-div {
           max-width: 768px;
-          padding: 16px 16px 0 16px;
+          padding: 0 16px 0 16px;
           margin: 0 auto;
           gap: 120px;
           align-items: center;
@@ -863,7 +865,7 @@
           gap: 72px 24px;
       }
       .title-li {
-          width: calc((100% - 48px) / 2);
+          width: calc((100% - 24px) / 2);
       }
       .title-descrip {
           text-align: left;
